@@ -1,0 +1,11 @@
+.background{
+    background-image: url(../img/bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg-transparent{
+    background-color:hsla(0, 0%, 100%, 0.3) !important;
+    backdrop-filter: blur(7px);
+    border-radius: 15px;
+}
